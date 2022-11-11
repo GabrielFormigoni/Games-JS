@@ -1,0 +1,64 @@
+body {
+    background-color: aliceblue;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid {
+    background-color: white;
+    border: 1px solid black;
+    width: 450px;
+    height: 450px;
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+.grid div {
+    width: 50px;
+    height: 50px;
+}
+
+.ending-block {
+    background-color: red;
+}
+
+.starting-block {
+    background-color: blue;
+}
+
+
+.l1, .l2, .l3 {
+    background-color: brown;
+}
+
+.l4, .l5 {
+    background-color: lightblue;
+}
+
+.c1 {
+    background-color: black;
+}
+
+.c2, .c3 {
+    background-color: lightgrey;
+}
+
+.frog {
+    background-color: green;
+}
+
+#btn {
+    margin-bottom: 30px;
+    background-color: salmon;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}

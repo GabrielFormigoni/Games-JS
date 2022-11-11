@@ -1,0 +1,20 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: cursive;
+    font-weight: normal;
+}
+
+body{
+    padding: 0;
+    margin-top: 200px;
+    background: linear-gradient( to right, #00eeff, #0011ff,#b4156c);
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    background: transparent;
+    outline: none;
+    border-radius: 2px solid black;
+    cursor: pointer;
+}
